@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Havuz Bakım Web Sitesi
 
-## Getting Started
+Bu proje, havuz bakım hizmetleri sunan bir firma için geliştirilmiş statik bir web sitesidir.
 
-First, run the development server:
+## 🏊‍♂️ Özellikler
 
+- Modern ve responsive tasarım
+- Next.js ile geliştirilmiş statik site
+- Tailwind CSS ile stillendirilmiş
+- SEO dostu yapı
+- Hızlı yükleme süreleri
+
+## 🛠️ Teknolojiler
+
+- Next.js
+- React
+- Tailwind CSS
+- TypeScript
+
+## 📦 Kurulum
+
+1. Projeyi klonlayın:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/KULLANICI_ADIN/havuz-bakim.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Bağımlılıkları yükleyin:
+```bash
+cd havuz-bakim
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Statik site oluşturmak için:
+```bash
+npm run build
+```
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Proje Hostinger üzerinde statik site olarak deploy edilmiştir. Deployment için:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. `npm run build` komutunu çalıştırın
+2. `out` klasörünü zipleyin
+3. Zip dosyasını Hostinger'ın public_html klasörüne yükleyin ve çıkartın
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 İçerik
 
-## Deploy on Vercel
+- Ana Sayfa
+- Hizmetler
+- Bölgeler
+- Referanslar
+- Blog
+- İletişim
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔒 Güvenlik
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- SSL sertifikası aktif
+- HTTPS üzerinden güvenli bağlantı
+- Hassas veri toplanmamaktadır
+
+## 📄 Lisans
+
+Bu proje özel kullanım içindir. Tüm hakları saklıdır.
+
+---
+
+© 2024 Havuz Bakım. Tüm hakları saklıdır.
